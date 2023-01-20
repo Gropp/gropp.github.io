@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('/assets/fonts/neue-machina-regular.otf');
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, #1b7eb1, #386c98, #415a7e, #414a65, #3b3c4c, #403c4f, #463b51, #4d3a52, #6f4267, #974674, #c04979, #e94c75);
+    background-repeat: no-repeat;
+    color: lightgrey;
+}
+
+.main {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+    .main {
+        max-width: 1024;
+        margin: 1rem 1rem;
+    }
+
+}

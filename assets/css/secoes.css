@@ -1,0 +1,230 @@
+.acordeon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.acordeon:hover {
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+.acordeon.open {
+    background-color: rgba(138, 43, 226, 0.5);
+    border-color: blueviolet;
+}
+
+.acordeon .symbol {
+    font-size: x-large;
+    color: #fff;
+    position: absolute;
+    top: -0.5rem;
+    right: 1rem;
+}
+
+.acordeon .symbol:hover {
+    cursor: pointer;
+}
+
+.acordeon.open .symbol {
+    transition: .40s;
+    transform: rotate(180deg);
+}
+
+.acordeon .trigger {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border: none;
+}
+
+.acordeon .content {
+    /* display: none; */
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.acordeon.open .content {
+    display: inline-block;
+    font-weight: 500;
+    padding: 0 1rem 1rem 2rem;
+    height: auto;
+    opacity: 1;
+}
+
+
+/* skills */
+
+.skills {
+    /* display: flex; */
+    /* flex-direction: column; */
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.skills .tools ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.skills .tools ul li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.skills .tools ul li p {
+    font-size: 4rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.skills li span {
+    font-size: 0.8rem;
+    margin: 1rem;
+    padding: 0;
+}
+
+.skills .personal ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.skills .personal ul li {
+    /* margin-left: 2rem; */
+    margin-top: 1rem;
+    margin-left: 2rem;
+    list-style: circle;
+}
+
+/* Graduacao */
+
+.formacao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.formacao .graduacao li {
+    font-weight: 500;
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+.formacao .cursos li {
+    font-weight: 500;
+    margin-bottom: 1rem;
+    list-style: none;
+}
+.formacao li i {
+    margin-right: .5rem;
+}
+
+/* languages */
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.languages li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 1rem;
+    font-weight: 500;
+}
+
+.languages li i {
+    margin-right: .5rem;
+}
+
+/* projetos */
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.projetos li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+.projetos li i {
+    margin-right: .5rem;
+}
+
+.projetos li a {
+    font-size: .7rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.projetos li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* experiencias */
+
+.experiencias {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0rem;
+    padding: 0;
+    list-style: none;
+}
+
+.experiencias .descricao {
+    font-size: small;
+}
+
+footer {
+    font-size: small;
+    text-align: center;
+}
+
+footer span {
+    font-weight: 900;
+}
