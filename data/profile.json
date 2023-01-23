@@ -1,0 +1,120 @@
+{
+  "name": "Fernando Gropp",
+  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+  "job": "Consultor/Analista/Desenvolvedor",
+  "location": "Curitiba - PR",
+  "phone": "(41) 98808-7539",
+  "email": "fgropp@gmail.com",
+  "linkedin": "https://linkedin.com/in/fernandogropp",
+  "github": "https://github.com/Gropp",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Scientis Computer",
+        "logo": "https://raw.githubusercontent.com/#"
+      },
+      {
+        "name": "Network Specialist",
+        "logo": "https://raw.githubusercontent.com/#"
+      },
+      {
+        "name": "HTML 5",
+        "logo": "https://raw.githubusercontent.com/#"
+      },
+      {
+        "name": "CSS 3",
+        "logo": "https://raw.githubusercontent.com/#"
+      },
+      {
+        "name": "Javascript",
+        "logo": "https://raw.githubusercontent.com/#"
+      },
+      {
+        "name": "Nodejs",
+        "logo": "https://raw.githubusercontent.com/#"
+      },
+      {
+        "name": "SQL",
+        "logo": "https://raw.githubusercontent.com/#"
+      },
+      {
+        "name": "Git",
+        "logo": "https://raw.githubusercontent.com/#"
+      },
+      {
+        "name": "GitHub",
+        "logo": "https://raw.githubusercontent.com/#"
+      },
+      {
+        "name": "Linux",
+        "logo": "https://raw.githubusercontent.com/#"
+      },
+      {
+        "name": "BI",
+        "logo": "https://raw.githubusercontent.com/#"
+      }
+    ],
+    "softSkills": [
+      "Liderança",
+      "Organização",
+      "Empatia",
+      "Trabalho em equipe",
+      "Treinamento",
+      "Resiliencia"
+      
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (intermediário)"
+  ],
+  "projects": [
+    {
+      "name": "Sistema de Coleta de Indicadores de Sustentábilidade",
+      "url": "https://admin.plataformasustentavel.com.br",
+      "github": false
+    },
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
+      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "github": true
+    },
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Consultor de Tecnologia | AUTÔNOMO",
+      "period": "Atual",
+      "description": "Prestação de serviços nas áreas de: Redes e Automação Residencial, Implantação de ERP, Gestão de integrações EDI (API/FTP), Ciência de Dados, Linux, Gestão de Desenvolvimento de Sistemas e Sites WEB, e Suporte aos usuários (Ajuda e treinamento)."
+    },
+    {
+      "name": "Gestão de Projetos de Automação | NIPPON STUDIOS",
+      "period": "2010",
+      "description": "Empresa de Automação e Home Theater. Projetos, gestão e implantação de sistemas de domótica para casas inteligentes. Parceria com grande distribuídoras. Soluções de empresas como: Control4, Scenario, Lutron, Roussound, Philips, Onkyo, entre outras grandes marcas. Afiliada a CEDIA (Associação Global das Indústrias de Smart Home Technology)."
+    },
+    {
+      "name": "Trade | ANBFARMA",
+      "period": "2004 - 2016",
+      "description": "Distribuidora de Medicamentos, atua na região Sul do país, canais farma e hospitalar. Na área de informática implantei o sistema de vendas remotas com o uso de palms, inicialmente no canal alimentar, e em seguida no canal logístico. Com a experiência adquirida atuei também na gestão e apoia das equipes comerciais internas e externas. Negociações com grandes laboratórios farmacêuticos, treinamento de equipes terceiras para uso das soluções implantadas. Adquiri uma ampla gama de soft-skills. Apoio a clientes internos e externos, planejamento e desmontração de resultados, atuação e apoio em feiras e eventos de diversos parceiros e clientes da empresa."
+    },
+    {
+      "name": "Analista de Sistemas | VTC COMPUTERS",
+      "period": "1996 - 1998",
+      "description": "Indústria de assemblagem de computadores, com atuação nacional. Gerenciava o sistema ERP. Implantações, atualizações de módulos, suporte e treinamento aos usuários."
+    },
+    {
+      "name": "Analista de Sistemas, Implantação e Suporte | MICROSIGA",
+      "period": "1996",
+      "description": "Empresa de Sistemas (ERP), referência em sistemas na década de 90, ainda hoje atua como TOTV e tem grande presença no mercado. Analista de implantação. Levantamento das necessidades dos clientes usuários do Sistema ERP da Microsiga, implantação e suporte dos módulos contratados."
+    },
+    {
+      "name": " Operador, Programador e Analista Jr. | MINERVA DIMAX",
+      "period": "1994 - 1995",
+      "description": "Distribuidora de medicamentos, abastecia a rede de farmácias Minerva. Operador de schedule, programador Cobol/Rexx, Analista Jr. em ambiente de Mainframe IBM 3090VF."
+    }
+  ]
+}
