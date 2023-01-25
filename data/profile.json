@@ -64,6 +64,60 @@
       
     ]
   },
+  "education": {
+    "graduation": [
+      {
+        "institution":"UFPR",
+        "curse":"Bacharel em Ciência da Computação"
+      },
+      {
+        "institution":"UTFPR",
+        "curse":"Especialista em Redes e Telecomunicações"
+      }
+    ],
+    "courses": [
+      {
+        "institution":"SOFHAR",
+        "curse":"Administering a Microsoft SQL SERVER 2000 Database(2072)"
+      },
+      {
+        "institution":"CEDIA UNIVERSITY",
+        "curse":"Design Documents (ESD162)"
+      },
+      {
+        "institution":"CEDIA UNIVERSITY",
+        "curse":"Introduction to Document Development (ESPA204)"
+      },
+      {
+        "institution":"CEDIA UNIVERSITY",
+        "curse":"Network Cabling Infrastructure (EST233)"
+      },
+      {
+        "institution":"CEDIA UNIVERSITY",
+        "curse":"Managing a Residential Integration Project (ESPM402)"
+      },
+      {
+        "institution":"DIO.ME",
+        "curse":"BootCamp Take a Blip Web Developer"
+      },
+      {
+        "institution":"DIO.ME",
+        "curse":"BootCamp Philips Fullstack Developer"
+      },
+      {
+        "institution":"DIO.ME",
+        "curse":"BootCamp Impulso Javascript Evolution"
+      },
+      {
+        "institution":"DIO.ME",
+        "curse":"Linux Fundamentals"
+      },
+      {
+        "institution":"DIO.ME",
+        "curse":"Linux Experience"
+      }
+    ]
+  },
   "languages": [
     "Português BR",
     "Inglês (intermediário)"
