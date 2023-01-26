@@ -14,7 +14,7 @@
 }
 
 .acordeon.open {
-    background-color: rgba(138, 43, 226, 0.5);
+    background-color: rgba(138, 43, 226, 0.3);
     border-color: blueviolet;
 }
 
@@ -62,6 +62,10 @@
     opacity: 1;
 }
 
+section span.subtitle {
+    color: orange;
+}
+
 
 /* skills */
 
@@ -86,10 +90,17 @@
 }
 
 .skills .tools ul li {
+    display: flex;
+    flex-direction: column;
     margin: 0;
-    padding: 0;
+    padding: 0.5rem;
     text-align: center;
+    align-items: center;
     list-style: none;
+}
+
+.skills .tools ul li img {
+    height: 60px;
 }
 
 .skills .tools ul li p {
@@ -226,5 +237,6 @@ footer {
 }
 
 footer span {
+    color: orange;
     font-weight: 900;
 }

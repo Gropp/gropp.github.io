@@ -23,6 +23,10 @@
     text-align: center;
 }
 
+.header span.subtitle {
+    color: orange;
+}
+
 .header .information {
     display: flex;
     flex-direction: column;

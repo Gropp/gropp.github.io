@@ -1,3 +1,5 @@
+<!-- Pagina HTML Dinamica, puxa as informacoes do GITHUB -->
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -17,16 +19,18 @@
 <body>
     <main class="main">
         <header class="header">
-            <img class="photo" src="/assets/images/eu.png" alt="Foto Fernando Gropp">
+            <!-- O ID deve estar dentro dos objetos manipulados -->
+            <!-- Para preservar o ICONE PUS NA FRENTE DA TAG <i> -->
+            <img class="photo" id="profile.photo" src="" alt="">
             <p class="symbol"><i class="fa-sharp fa-solid fa-spin fa-pulse fa-spinner"></i></p>
-            <h1 class="title" >Bem-vindos<br/>Eu sou, Fernando Gropp</h1>
+            <h1 class="title">Bem-vindos<br/>Eu sou, <span class="subtitle" id="profile.name"></span></h1>
             <div class="information">
-                <p><i class="fa-regular fa-user"></i>Consultor/Analista/Desenvolvedor</p>
-                <p><i class="fa-solid fa-earth-americas"></i>Curitiba - PR - Brazil</p>
-                <p><i class="fa-solid fa-mobile"></i><a href="tel:(41)988087539">(41) 9.8808.7539</a></p>
-                <p><i class="fa-regular fa-envelope"></i><a href="mailto:fgropp@gmail.com">fgropp@gmail.com</a></p>
-                <p><i class="fa-brands fa-linkedin-in"></i><a href="https://www.linkedin.com/in/fernandogropp/">fernandogropp</a></p>
-                <p><i class="fa-brands fa-github"></i><a href="https://gropp.github.io/">Gropp</a></p>
+                <p><i class="fa-regular fa-user"></i><span id="profile.job"></p>
+                <p><i class="fa-solid fa-earth-americas"></i><span id="profile.location"></p>
+                <p><i class="fa-solid fa-mobile"></i><a id="profile.phone" href="#"></a></p>
+                <p><i class="fa-regular fa-envelope"></i><a id="profile.email" href=""></a></p>
+                <p><i class="fa-brands fa-linkedin-in"></i><a id="profile.linkedin" href=""></a></p>
+                <p><i class="fa-brands fa-github"></i><a id="profile.github" href=""></a></p>
             </div>
         </header>
         <!-- secoes dos acordeons -->
@@ -34,60 +38,20 @@
         <section class="acordeon">
             <button type="button" class="trigger">
                 <p class="symbol"><i class="fa-solid fa-chevron-up"></i></p>
-                    Skills
+                   <span class="subtitle">Skills</span>
             </button>
             <div class="content">
                 <div class="skills">
                     <section class="tools">
-                        <h3>Hard Skills</h3>
-                        <ul>
-                            <li>
-                                <p><i class="fa-solid fa-atom"></i></p>
-                                <span>Computer Scientist</span>
-                            </li>
-                            <li>
-                                <p><i class="fa-solid fa-network-wired"></i></p>
-                                <span>Network Specialist</span>
-                            </li>
-                            <li>
-                                <p><i class="fa-brands fa-html5"></i></p>
-                                <span>HTML5</span>
-                            </li>
-                            <li>
-                                <p><i class="fa-brands fa-css3-alt"></i></p>
-                                <span>CSS3</span>
-                            </li>
-                            <li>
-                                <p><i class="fa-brands fa-square-js"></i></p>
-                                <span>JavaScript</span>
-                            </li>
-                            <li>
-                                <p><i class="fa-solid fa-database"></i></p>
-                                <span>SQL</span>
-                            </li>
-                            <li>
-                                <p><i class="fa-brands fa-github"></i></i></p>
-                                <span>Git/GitHub</span>
-                            </li>
-                            <li>
-                                <p><i class="fa-brands fa-linux"></i></p>
-                                <span>Linux</span>
-                            </li>
-                            <li>
-                                <p><i class="fa-solid fa-chart-simple"></i></p>
-                                <span>BI</span>
-                            </li>
+                        <h3>Hard-Skills</h3>
+                        <ul id="profile.skills.hardSkills">
+                            <!-- preenche com o JS -->
                         </ul>
                     </section>
                     <section class="personal">
-                        <h3>Soft-skills</h3>
-                        <ul>
-                            <li>Liderança</li>
-                            <li>Organização</li>
-                            <li>Trabalho em Equipe</li>
-                            <li>Facilidade de Comunicação</li>
-                            <li>Treinamento</li>
-                            <li>Resiliencia</li>
+                        <h3>Soft-Skills</h3>
+                        <ul id="profile.skills.softSkills">
+                            <!-- Preenche com o JS -->
                         </ul>
                     </section>
                 </div>
@@ -97,33 +61,20 @@
         <section class="acordeon"> 
             <button type="button" class="trigger">
                 <p class="symbol"><i class="fa-solid fa-chevron-up"></i></p>
-                    Graduação e Cursos
+                <span class="subtitle">Education</span>
             </button>
             <div class="content">
                 <div class="formacao">
                     <section class="graduacao">
-                        <h3>Graduação</h3>
-                        <ul>
-                            <li><i class="fa-solid fa-user-graduate"></i>UFPR - Bacharel em Ciência da Computação
-                            </li>
-                            <li><i class="fa-solid fa-user-graduate"></i>UTFPR - Especialista em Redes e Telecomunicações
-                            </li>
+                        <h3>Graduation</h3>
+                        <ul id="profile.edu.graduation">
+                            <!-- Preenche com o JS -->
                         </ul>
                     </section>
                     <section class="cursos">
-                        <h3>Cursos</h3>
-                        <ul>
-                            <li><i class="fa-solid fa-award"></i>SOFHAR - Especialização, Administering a MSSQL SERVER 2000 DB (2072)
-                            </li>
-                            <li><i class="fa-solid fa-award"></i>CEDIA UNIVERSITY - Design Documents (ESD162)</li>
-                            <li><i class="fa-solid fa-award"></i>CEDIA UNIVERSITY - Introduction to Document Development (ESPA204)</li>
-                            <li><i class="fa-solid fa-award"></i>CEDIA UNIVERSITY - Network Cabling Infrastructure (EST233)</li>
-                            <li><i class="fa-solid fa-award"></i>CEDIA UNIVERSITY - Managing a Residential Integration Project (ESPM402)</li>
-                            <li><i class="fa-solid fa-award"></i>DIO.ME - BootCamp Take a Blip Web Developer</li>
-                            <li><i class="fa-solid fa-award"></i>DIO.ME - BootCamp Philips Fullstack Developer</li>
-                            <li><i class="fa-solid fa-award"></i>DIO.ME - BootCamp Impulso Javascript Evolution</li>
-                            <li><i class="fa-solid fa-award"></i>DIO.ME - Linux Fundamentals</li>
-                            <li><i class="fa-solid fa-award"></i>DIO.ME - Linux Experience</li>
+                        <h3>Courses</h3>
+                        <ul id="profile.edu.courses">
+                            <!-- Preenche com o JS -->
                         </ul>
                     </section>
                 </div>
@@ -133,12 +84,11 @@
         <section class="acordeon"> 
             <button type="button" class="trigger">
                 <p class="symbol"><i class="fa-solid fa-chevron-up"></i></p>
-                    Idiomas
+                <span class="subtitle">Languages</span>
             </button>
             <div class="content">
-                <ul class="languages">
-                    <li><i class="fa-regular fa-flag"></i>Porutguês(BR) - nativo</li>
-                    <li><i class="fa-regular fa-flag"></i>Inglês - intermediário</li>
+                <ul class="languages" id="profile.lang">
+                    <!-- Preenche com o JS -->
                 </ul>
             </div>
         </section>
@@ -146,20 +96,11 @@
         <section class="acordeon"> 
             <button type="button" class="trigger">
                 <p class="symbol"><i class="fa-solid fa-chevron-up"></i></p>
-                    Projetos
+                <span class="subtitle">Projects</span>
             </button>
             <div class="content">
-                <ul class="projetos">
-                    <li>
-                        <span class="title"><i class="fa-brands fa-github-alt"></i>
-                            Plataforma Sustentável - Sistema Gerenciador de Indicadores de Sustentabilidade</span>
-                        <a href="https://admin.plataformasustentavel.com.br" target="_blank">admin.plataformasustentável.com.br</a>
-                    </li>
-                    <li>
-                        <span class="title"><i class="fa-brands fa-github-alt"></i>
-                            Potfólio de Códigos - Aprendizagem</span>
-                        <a href="https://github.com/Gropp" target="_blank">https://github.com/Gropp</a>
-                    </li>
+                <ul class="projetos" id="profile.project">
+                    <!-- Preenchido pelo JS -->
                 </ul>
             </div>
         </section>
@@ -167,76 +108,10 @@
         <section class="acordeon"> 
             <button type="button" class="trigger">
                 <p class="symbol"><i class="fa-solid fa-chevron-up"></i></p>
-                    Experiências Profissionais
+                <span class="subtitle">Professional Experience</span>
             </button>
             <div class="content">
-                <ul class="experiencias">
-                    <li>
-                        <span class="title"><i class="fa-solid fa-thumbtack"></i>
-                            Consultor de Tecnologia</span>
-                        <span>|</span>
-                        <span class="empresa">AUTÔNOMO</span>
-                        <span>|</span>
-                        <span class="periodo">Atual</span>
-                        <p class="descricao">
-                            Prestação de serviços nas áreas de: Redes e Automação Residencial, Implantação de ERP, Gestão de integrações EDI (API/FTP), Ciência de Dados, Linux, Gestão de Desenvolvimento de Sistemas e Sites WEB, e Suporte aos usuários (Ajuda e treinamento). 
-                        </p>
-                    </li>
-                    <li>
-                        <span class="title"><i class="fa-solid fa-thumbtack"></i>
-                            Gestão de Projetos de Automação</span>
-                        <span>|</span>
-                        <span class="empresa">NIPPON STUDIOS</span>
-                        <span>|</span>
-                        <span class="periodo">2010</span>
-                        <p class="descricao">
-                            Empresa de Automação e Home Theater. Projetos, gestão e implantação de sistemas de domótica para casas inteligentes. Parceria com grande distribuídoras. Soluções de empresas como: Control4, Scenario, Lutron, Roussound, Philips, Onkyo, entre outras grandes marcas. Afiliada a CEDIA (Associação Global das Indústrias de Smart Home Technology).
-                        </p>
-                    </li>
-                    <li>
-                        <span class="title"><i class="fa-solid fa-thumbtack"></i>
-                            Trade </span>
-                        <span>|</span>
-                        <span class="empresa">ANBFARMA</span>
-                        <span>|</span>
-                        <span class="periodo">2004 - 2016</span>
-                        <p class="descricao">
-                            Distribuidora de Medicamentos, atua na região Sul do país, canais farma e hospitalar. Na área de informática implantei o sistema de vendas remotas com o uso de palms, inicialmente no canal alimentar, e em seguida no canal logístico. Com a experiência adquirida atuei também na gestão e apoia das equipes comerciais internas e externas. Negociações com grandes laboratórios farmacêuticos, treinamento de equipes terceiras para uso das soluções implantadas. Adquiri uma ampla gama de soft-skills. Apoio a clientes internos e externos, planejamento e desmontração de resultados, atuação e apoio em feiras e eventos de diversos parceiros e clientes da empresa. 
-                        </p>
-                    </li>
-                    <li>
-                        <span class="title"><i class="fa-solid fa-thumbtack"></i>
-                            Analista de Sistemas</span>
-                        <span>|</span>
-                        <span class="empresa">VTC COMPUTERS</span>
-                        <span>|</span>
-                        <span class="periodo">1996 - 1998</span>
-                        <p class="descricao">
-                            Indústria de assemblagem de computadores, com atuação nacional. Gerenciava o sistema ERP. Implantações, atualizações de módulos, suporte e treinamento aos usuários.
-                        </p>
-                    </li>
-                    <li>
-                        <span class="title"><i class="fa-solid fa-thumbtack"></i>
-                            Analista de Sistemas, Implantação e Suporte</span>
-                        <span>|</span>
-                        <span class="empresa">MICROSIGA</span>
-                        <span>|</span>
-                        <span class="periodo">1996</span>
-                        <p class="descricao">
-                            Empresa de Sistemas (ERP), referência em sistemas na década de 90, ainda hoje atua como TOTV e tem grande presença no mercado. Analista de implantação. Levantamento das necessidades dos clientes usuários do Sistema ERP da Microsiga, implantação e suporte dos módulos contratados.
-                        </p>
-                    </li>
-                    <li>
-                        <span class="title"><i class="fa-solid fa-thumbtack"></i>
-                            Operador, Programador e Analista</span>
-                        <span>|</span>
-                        <span class="empresa">MINERVA DIMAX</span>
-                        <span>|</span>
-                        <span class="periodo">1994 - 1995</span>
-                        <p class="descricao">
-                            Distribuidora de medicamentos, abastecia a rede de farmácias Minerva. Operador de schedule, programador Cobol/Rexx, Analista Jr. em ambiente de Mainframe IBM 3090VF.  
-                        </p>
-                    </li>
+                <ul class="experiencias" id="profile.proExp">
                 </ul>
             </div>
         </section>
@@ -247,5 +122,7 @@
     <!-- link para a galeria de icones da fontawesome -->
     <script src="https://kit.fontawesome.com/e3adcc10cd.js" crossorigin="anonymous"></script>
     <script src="./assets/js/acordeon.js"></script>
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
