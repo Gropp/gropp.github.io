@@ -13,53 +13,54 @@
     "hardSkills": [
       {
         "name": "Scientis Computer",
-        "logo": "https://raw.githubusercontent.com/#"
+        "logo": "https://raw.githubusercontent.com/Gropp/gropp.github.io/main/data/imgs/sc.png"
       },
       {
         "name": "Network Specialist",
-        "logo": "https://raw.githubusercontent.com/#"
+        "logo": "https://raw.githubusercontent.com/Gropp/gropp.github.io/main/data/imgs/net.png"
       },
       {
         "name": "HTML 5",
-        "logo": "https://raw.githubusercontent.com/#"
+        "logo": "https://raw.githubusercontent.com/Gropp/gropp.github.io/main/data/imgs/html.png"
       },
       {
         "name": "CSS 3",
-        "logo": "https://raw.githubusercontent.com/#"
+        "logo": "https://raw.githubusercontent.com/Gropp/gropp.github.io/main/data/imgs/css.png"
       },
       {
         "name": "Javascript",
-        "logo": "https://raw.githubusercontent.com/#"
+        "logo": "https://raw.githubusercontent.com/Gropp/gropp.github.io/main/data/imgs/js.png"
       },
       {
         "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/#"
+        "logo": "https://raw.githubusercontent.com/Gropp/gropp.github.io/main/data/imgs/nodejs.png"
       },
       {
-        "name": "SQL",
-        "logo": "https://raw.githubusercontent.com/#"
+        "name": "mySql",
+        "logo": "https://raw.githubusercontent.com/Gropp/gropp.github.io/main/data/imgs/mysql.png"
       },
       {
         "name": "Git",
-        "logo": "https://raw.githubusercontent.com/#"
+        "logo": "https://raw.githubusercontent.com/Gropp/gropp.github.io/main/data/imgs/git.png"
       },
       {
         "name": "GitHub",
-        "logo": "https://raw.githubusercontent.com/#"
+        "logo": "https://raw.githubusercontent.com/Gropp/gropp.github.io/main/data/imgs/github.png"
       },
       {
         "name": "Linux",
-        "logo": "https://raw.githubusercontent.com/#"
+        "logo": "https://raw.githubusercontent.com/Gropp/gropp.github.io/main/data/imgs/linux.png"
       },
       {
         "name": "BI",
-        "logo": "https://raw.githubusercontent.com/#"
+        "logo": "https://raw.githubusercontent.com/Gropp/gropp.github.io/main/data/imgs/bi.png"
       }
     ],
     "softSkills": [
       "Liderança",
       "Organização",
       "Empatia",
+      "Comunicação",
       "Trabalho em equipe",
       "Treinamento",
       "Resiliencia"
