@@ -36,7 +36,7 @@
         "logo": "https://raw.githubusercontent.com/Gropp/gropp.github.io/main/data/imgs/nodejs.png"
       },
       {
-        "name": "mySql",
+        "name": "MySQL",
         "logo": "https://raw.githubusercontent.com/Gropp/gropp.github.io/main/data/imgs/mysql.png"
       },
       {
@@ -127,18 +127,51 @@
   ],
   "projects": [
     {
-      "name": "Sistema de Coleta de Indicadores de Sustentábilidade",
+      "name": "Plataforma Sustentável",
+      "description": "Sistema de Coleta de Indicadores de Sustentabilidade",
       "url": "https://admin.plataformasustentavel.com.br",
       "github": false
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Clone Interface Netflix",
+      "description": "Criação de interface com HTML, CSS, JS e JQUERY",
+      "url": "https://github.com/Gropp/jquery",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Clone Login Instagram",
+      "description": "Criação da interface de login com HTML e CSS",
+      "url": "https://github.com/Gropp/instagramlogclone",
+      "github": true
+    },
+        {
+      "name": "Login/Cadastro animado",
+      "description": "Tela de login/cadastro com HTML, CSS e CSS-ANIMATION",
+      "url": "https://github.com/Gropp/HTML5_CSS3",
+      "github": true
+    },
+    {
+      "name": "Pokedex",
+      "description": "Consumo de API com JavaScript",
+      "url": "https://github.com/Gropp/pokedex",
+      "github": true
+    },
+    {
+      "name": "TypeScript/Angular",
+      "description": "Consumo de uma base em JSON e MySQL",
+      "url": "https://github.com/Gropp/dio_javascript_ts",
+      "github": true
+    },
+    {
+      "name": "Exercícios em JAVASCRIPT",
+      "description": "Varios códigos em HTML, CSS e JAVASCRIPT, inclusive uma versão do jogo do Dinossauro do Google",
+      "url": "https://github.com/Gropp/javascript",
+      "github": true
+    },
+    {
+      "name": "Jogo do Helicóptero",
+      "description": "Jogo de tiro em HTML, CSS e JAVASCRIPT",
+      "url": "https://github.com/Gropp/jogojavascript",
       "github": true
     }
   ],
