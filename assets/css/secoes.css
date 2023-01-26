@@ -242,6 +242,5 @@ footer span {
 }
 
 footer img {
-    height: 100px;
-    align-items: flex-start;
+    width: 100px;
 }
