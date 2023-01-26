@@ -240,3 +240,8 @@ footer span {
     color: orange;
     font-weight: 900;
 }
+
+footer img {
+    height: 100px;
+    align-items: flex-start;
+}
